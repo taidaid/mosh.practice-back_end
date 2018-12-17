@@ -13,5 +13,9 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "knex": "^0.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taidaid/mosh.practice-back_end.git"
   }
 }
