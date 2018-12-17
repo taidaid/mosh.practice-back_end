@@ -1,0 +1,15 @@
+{
+  "name": "mosh.practice-back_end",
+  "version": "1.0.0",
+  "description": "store back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bryan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.2"
+  }
+}
