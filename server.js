@@ -35,9 +35,8 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   //   res.json("it is working");
-  const store = database.store;
-  res.setHeader("Content-Type", "application/json");
-  res.json({ store });
+  // res.setHeader("Content-Type", "application/json");
+  res.json(database);
 });
 
 app.listen(3000, () => {
