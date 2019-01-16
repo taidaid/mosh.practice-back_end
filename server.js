@@ -5,26 +5,25 @@ const cors = require("cors");
 const app = express();
 
 const database = {
-  counters: [
-    { id: 1, value: 0 },
-    { id: 2, value: 2 },
-    { id: 3, value: 3 },
-    { id: 4, value: 4 }
-  ],
+  counters: [],
   store: [
     {
       id: 1,
-      img: "https://via.placeholder.com/600/92c952",
+      name: "Big cat",
+      img: "https://i.ytimg.com/vi/RlwCG7r4saw/maxresdefault.jpg",
       title: "accusamus beatae ad facilis cum similique qui sunt"
     },
     {
       id: 2,
-      img: "https://via.placeholder.com/600/92c952",
+      name: "Small cat",
+      img: "https://i.ytimg.com/vi/hiSlzuoRtIA/maxresdefault.jpg",
       title: "accusamus beatae ad facilis cum similique qui sunt"
     },
     {
       id: 3,
-      img: "https://via.placeholder.com/600/92c952",
+      name: "So-so cat",
+      img:
+        "https://www.cat-breeds-encyclopedia.com/images/American-bobtail-cat.jpg",
       title: "accusamus beatae ad facilis cum similique qui sunt"
     }
   ]
